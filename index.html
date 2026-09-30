@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!-- Makes the website adjust properly on phones and tablets -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NU-Clark Library Portal | Home</title>
+<!-- Connects this page to our CSS design -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- =========================
+
+         HEADER / NAVIGATION
+
+         ========================= -->
+<header>
+<div class="logo">
+<h2>NU-Clark Library Portal</h2>
+<p>Education that works.</p>
+</div>
+<nav>
+<!-- "active" highlights the page we are currently viewing -->
+<a href="index.html" class="active">Home</a>
+<!-- Goes to the About section of this same page -->
+<a href="#about">About</a>
+<!-- Login link changes to Logout using JavaScript after login -->
+<a href="login.html"
+
+               id="loginNav"
+
+               class="nav-login">
+
+                Login
+</a>
+</nav>
+</header>
+
+<!-- =========================
+
+         HERO / MAIN BANNER
+
+         ========================= -->
+<section class="hero">
+<div class="hero-content">
+<p class="university-name">
+
+                NATIONAL UNIVERSITY – CLARK
+</p>
+<h1>NU-Clark Library Portal</h1>
+<h2>Your Gateway to Knowledge</h2>
+<p class="description">
+
+                Explore the Learning Resource Center, discover
+
+                available books, and keep track of your borrowed
+
+                library materials.
+</p>
+</div>
+</section>
+
+<!-- =========================
+
+         THREE MAIN FEATURES
+
+         ========================= -->
+<section class="services">
+<!--
+
+            data-protected means JavaScript will check
+
+            if the student is logged in before opening the page.
+
+        -->
+<a href="services.html"
+
+           class="service-card protected-link"
+
+           data-protected>
+<div class="icon">🏫</div>
+<h3>Library Services</h3>
+<p>
+
+                Learn about the facilities, services,
+
+                operating hours, and Learning Resource Center.
+</p>
+</a>
+
+<a href="collection.html"
+
+           class="service-card protected-link"
+
+           data-protected>
+<div class="icon">📚</div>
+<h3>Browse Collection</h3>
+<p>
+
+                Browse books and check their
+
+                availability and publication information.
+</p>
+</a>
+
+<a href="borrowed.html"
+
+           class="service-card protected-link"
+
+           data-protected>
+<div class="icon">📖</div>
+<h3>My Borrowed Books</h3>
+<p>
+
+                View the books currently borrowed
+
+                under your student account.
+</p>
+</a>
+</section>
+
+<!-- =========================
+
+         ABOUT SECTION
+
+         ========================= -->
+<section class="about" id="about">
+<h2>About the Library Portal</h2>
+<p>
+
+            The NU-Clark Library Portal is a student project
+
+            designed to demonstrate a simple online interface
+
+            for accessing information and services of the
+
+            Learning Resource Center.
+</p>
+</section>
+
+<!-- =========================
+
+         FOOTER
+
+         ========================= -->
+<footer>
+<h3>NU-Clark Library Portal</h3>
+<p>Knowledge • Learning • Discovery</p>
+<p class="project-note">
+
+            Student Project — For Educational Purposes Only
+</p>
+<p>&copy; 2026 NU-Clark Library Portal</p>
+</footer>
+
+<!-- Connects JavaScript used for our simulated login -->
+<script src="script.js"></script>
+</body>
+</html>
+ 
+login.html
+ 
